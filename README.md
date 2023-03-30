@@ -4,6 +4,16 @@
 ## Introduction : 
 * This app is agroup of Restful APIS which anyone can register to your system as a trader and upload their products, clients, create orders, send offers, get details reports and manage their store.
 
+## Features :
+* Sign up with email verification.
+* Sign in for the trader account with email and password.
+* Create CRUD operation for the products, also the trader can upload their product data with excel sheet.
+* Each trader has a set of clients so you can create crud operations for the clients and also he can upload clients data with excel sheet.
+* Trader can create orders from their product (each trader only can access the data added by them).
+* Traders can send a scheduled notifications for new offers for their clients, which will be sent to their client at the end of the month.
+* Traders can Update their product's quantity by excel sheet.
+* Get reports that includes orders made throughout the day and the products with quantity = 0.
+
 ## Technologies :
 * nodejs v16.17.0
 * express v4.18.2
