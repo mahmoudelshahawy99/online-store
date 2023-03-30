@@ -1,0 +1,19 @@
+{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "",
+        "database": "store"
+    },
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING",
+    "emailFrom": "shop@shop-api.com",
+    "smtpOptions": {
+        "host": "enter your own SMTP options or use smtp.ethereal.email by creating account at https://ethereal.email/",
+        "port": 587,
+        "auth": {
+            "user": "your SMTP username",
+            "pass": "your SMTP password"
+        }
+    }
+}
